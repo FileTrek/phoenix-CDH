@@ -28,5 +28,6 @@ limitations under the License.
 <br>
 [3]
 欢迎指点 邮箱nzy-666@126.com
-
+[4]
+CDH parcel包 未能完成 正在学习中
 Copyright ©2014 [Apache Software Foundation](http://www.apache.org/). All Rights Reserved. 
