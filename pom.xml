@@ -73,7 +73,7 @@
     <parent>
         <groupId>com.cloudera.cdh</groupId>
         <artifactId>cdh-root</artifactId>
-        <version>5.13.0</version>
+        <version>5.13.1</version>
     </parent>
 
     <scm>
@@ -94,8 +94,9 @@
         <hadoop-two.version>${cdh.hadoop.version}</hadoop-two.version>
 
         <!-- Dependency versions -->
-        <phoenix.release.version>4.13.1</phoenix.release.version>
-        <cdh.version.number>5.13.0</cdh.version.number>
+        <!--<phoenix.release.version>4.13.1</phoenix.release.version>-->
+        <!--<cdh.version.number>5.13.1</cdh.version.number>-->
+        <cdh.version.number>${cdh.parent.version}</cdh.version.number>
         <cdh.version>cdh${cdh.version.number}</cdh.version>
         <commons-cli.version>1.2</commons-cli.version>
         <hive.version>${cdh.hive.version}</hive.version>
