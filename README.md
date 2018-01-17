@@ -26,8 +26,13 @@ limitations under the License.
 <br>
 [2]参照issues.apache.org/jira/browse/PHOENIX-4462进行编译
 <br>
-[3]
-欢迎指点 邮箱nzy-666@126.com
-[4]
-CDH parcel包 未能完成 正在学习中
+[3] 
+    欢迎指点 邮箱nzy-666@126.com
+<br>
+    
+######[a]
+2018/01/17
+ 
+    1.CDH parcel project test done
+<br>
 Copyright ©2014 [Apache Software Foundation](http://www.apache.org/). All Rights Reserved. 
