@@ -30,8 +30,8 @@ limitations under the License.
     欢迎指点 邮箱nzy-666@126.com
 <br>
     
-######[a]
-2018/01/17
+[a]
+2018/01/17 from 4372-v7.patch
  
     1.CDH parcel project test done
 <br>
