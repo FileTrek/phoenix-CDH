@@ -24,8 +24,11 @@ import scala.collection.JavaConversions._
 class ProductRDDFunctions[A <: Product](data: RDD[A]) extends Serializable {
 
   def saveToPhoenix(tableName: String, cols: Seq[String],
-                    conf: Configuration = new Configuration, zkUrl: Option[String] = None, tenantId: Option[String] = None)
+                    conf: Configuration = new Configuration, zkUrl: Option[String] = None)
                     : Unit = {
+
+
+    val tenantId: Option[String] = None
 
     // Create a configuration object to use for saving
     @transient val outConfig = ConfigurationUtil.getOutputConfiguration(tableName, cols, zkUrl, tenantId, Some(conf))

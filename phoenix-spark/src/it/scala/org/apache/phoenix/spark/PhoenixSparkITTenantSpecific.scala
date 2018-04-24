@@ -69,7 +69,6 @@ class PhoenixSparkITTenantSpecific extends AbstractPhoenixSparkIT {
       TenantTable,
       Seq(OrgIdCol, TenantOnlyCol),
       zkUrl = Some(quorumAddress),
-      tenantId = Some(TenantId),
       conf = hbaseConfiguration)
 
     // There should only be 1 row upserted in tenantSetup.sql
@@ -82,7 +81,6 @@ class PhoenixSparkITTenantSpecific extends AbstractPhoenixSparkIT {
       TenantTable,
       Seq(OrgIdCol, TenantOnlyCol),
       zkUrl = Some(quorumAddress),
-      tenantId = Some(TenantId),
       conf = hbaseConfiguration)
 
     // There should only be 1 row upserted in tenantSetup.sql
@@ -128,8 +126,7 @@ class PhoenixSparkITTenantSpecific extends AbstractPhoenixSparkIT {
       .saveToPhoenix(
         TenantTable,
         Seq(OrgIdCol, TenantOnlyCol),
-        hbaseConfiguration,
-        tenantId = Some(TenantId)
+        hbaseConfiguration
       )
 
     verifyResults
