@@ -40,7 +40,7 @@
     <maven.test.skip>true</maven.test.skip>
     <phoenix.version>${phoenix.release.version}</phoenix.version>
     <parcel.patch.count>0</parcel.patch.count>
-    <parcel.release>0.${parcel.patch.count}</parcel.release>
+    <parcel.release>1.${parcel.patch.count}</parcel.release>
     <parcel.folder>APACHE_PHOENIX-${phoenix.version}-${cdh.version}.p${parcel.release}</parcel.folder>
     <parcel.file>${parcel.folder}.parcel</parcel.file>
     <parcel.version>${phoenix.version}-${cdh.version}.p${parcel.release}</parcel.version>
