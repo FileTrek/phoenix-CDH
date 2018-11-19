@@ -279,14 +279,33 @@ public class DelegateHTable implements HTableInterface {
         return delegate.checkAndMutate(row, family, qualifier, compareOp, value, mutation);
     }
 
-
-        @Override
+    @Override
     public void setRpcTimeout(int i) {
         delegate.setRpcTimeout(i);
     }
 
     @Override
     public int getRpcTimeout() {
+        return delegate.getRpcTimeout();
+    }
+
+    @Override
+    public void setWriteRpcTimeout(int i) {
+        delegate.setRpcTimeout(i);
+    }
+
+    @Override
+    public int getWriteRpcTimeout() {
+        return delegate.getRpcTimeout();
+    }
+
+    @Override
+    public void setReadRpcTimeout(int i) {
+        delegate.setRpcTimeout(i);
+    }
+
+    @Override
+    public int getReadRpcTimeout() {
         return delegate.getRpcTimeout();
     }
 

@@ -356,4 +356,25 @@ public class OmidTransactionTable implements PhoenixTransactionalTable {
     public int getRpcTimeout() {
         return 0;
     }
+
+    @Override
+    public void setWriteRpcTimeout(int rpcTimeout) {
+
+    }
+
+    @Override
+    public int getWriteRpcTimeout() {
+        return 0;
+    }
+
+    @Override
+    public void setReadRpcTimeout(int rpcTimeout) {
+
+    }
+
+    @Override
+    public int getReadRpcTimeout() {
+        return 0;
+    }
+
 }
